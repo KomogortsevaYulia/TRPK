@@ -11,11 +11,11 @@ public class Main {
 
     static volatile Boolean isFirst = false;
 
-    static List<Integer> buffer1 = new ArrayList<>();
+    static volatile List<Integer> buffer1 = new ArrayList<>();
 
     public static void main(String[] args) throws InterruptedException {
         startFirstThread();
-        Thread.sleep(1000);
+        //Thread.sleep(3000);
         startSecondThread();
     }
     public static void startFirstThread() {
