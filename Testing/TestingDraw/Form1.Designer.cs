@@ -47,7 +47,7 @@ namespace TestingDraw
             this.picCanvas.BackColor = System.Drawing.SystemColors.Window;
             this.picCanvas.Location = new System.Drawing.Point(12, 12);
             this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(435, 426);
+            this.picCanvas.Size = new System.Drawing.Size(400, 400);
             this.picCanvas.TabIndex = 2;
             this.picCanvas.TabStop = false;
             // 
@@ -83,7 +83,7 @@ namespace TestingDraw
             0,
             0});
             this.nRadius.Name = "nRadius";
-            this.nRadius.Size = new System.Drawing.Size(92, 20);
+            this.nRadius.Size = new System.Drawing.Size(185, 20);
             this.nRadius.TabIndex = 6;
             this.nRadius.Value = new decimal(new int[] {
             100,
@@ -96,7 +96,7 @@ namespace TestingDraw
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 449);
+            this.ClientSize = new System.Drawing.Size(677, 436);
             this.Controls.Add(this.nRadius);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

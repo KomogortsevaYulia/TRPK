@@ -1,0 +1,10 @@
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Yulia\Study\3_course_2\TRPK(Technology of development of software complexes)\Testing\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb

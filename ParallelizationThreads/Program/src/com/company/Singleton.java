@@ -7,7 +7,7 @@ public final class Singleton {
 
     final int N = 3;    //размер буфера
 
-    volatile Boolean isFirst = false;
+     volatile Boolean isFirst = false;
 
     volatile List<Integer> buffer1 = new ArrayList<>(); // сам буфер
 

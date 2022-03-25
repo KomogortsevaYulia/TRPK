@@ -16,7 +16,35 @@ namespace TestingDraw
         {
             InitializeComponent();
             label2.Text = (int)nRadius.Value + "";
-            this.;
+           
+        }
+        private void btnDraw_Click(object sender, EventArgs e)
+        {
+            int sides = 5;
+            int radius = (int)nRadius.Value;
+            int angle = 0;
+            Point center = new Point(picCanvas.Width / 2, picCanvas.Height / 2);
+            Image disposeMe = picCanvas.Image;
+            picCanvas.Image = DrawRegularPolygon(sides, radius, angle, center, picCanvas.ClientSize);
+            Timer timer = new Timer();
+            timer.Interval = 1;
+            int count = 0;
+            int max = 200;
+            timer.Tick += new EventHandler((o, ev) =>
+            {
+                count++;
+                if (count == max)
+                {
+                    Timer t = o as Timer;
+                    t.Stop();
+                    picCanvas.Image = null;
+                    angle = angle + 45;
+                    picCanvas.Image = DrawRegularPolygon(sides, radius, angle, center, picCanvas.ClientSize);
+                }
+            });
+            timer.Start();
+            if (disposeMe != null)
+                disposeMe.Dispose();
         }
 
         private Bitmap DrawRegularPolygon(int sides, int radius, int startingAngle, Point center, Size canvasSize)
@@ -32,6 +60,8 @@ namespace TestingDraw
                 g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
                 g.DrawPolygon(Pens.Black, verticies);
                 g.DrawEllipse(Pens.Black, x, y, width, height);
+
+
             }
 
             return polygon;
@@ -57,17 +87,6 @@ namespace TestingDraw
             xy.X = (int)(Math.Cos(radians) * radius + origin.X);
             xy.Y = (int)(Math.Sin(-radians) * radius + origin.Y);
             return xy;
-        }
-
-        private void nRadius_ValueChanged(object sender, EventArgs e)
-        {
-            int sides = 5;
-            int radius = (int)nRadius.Value;
-            int angle = 55;
-            Point center = new Point(picCanvas.Width / 2, picCanvas.Height / 2);
-            Image disposeMe = picCanvas.Image;
-            picCanvas.Image = DrawRegularPolygon(sides, radius, angle, center, picCanvas.ClientSize);
-            label2.Text = radius + "";
         }
     }
 }
