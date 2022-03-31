@@ -67,8 +67,8 @@ namespace WindowsFormsApp
             65536});
             this.numericUpDown1.Location = new System.Drawing.Point(9, 33);
             this.numericUpDown1.Maximum = new decimal(new int[] {
-            1874919424,
-            2328306,
+            25,
+            0,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";

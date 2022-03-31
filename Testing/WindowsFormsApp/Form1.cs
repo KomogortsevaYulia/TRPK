@@ -54,12 +54,12 @@ namespace WindowsFormsApp
                 SolidBrush brush = new SolidBrush(Color.White);
                 g.FillPolygon(brush, verticies);
 
-                g.DrawEllipse(Pens.Blue, verticies[0].X, verticies[0].Y, 3, 3);
+                g.DrawEllipse(Pens.Blue, center.X, center.Y-50, 3, 3);
             }
 
             picCanvas.Image = polygon;
 
-            label4.Text="R="+ AreaCalculation((double)numericUpDown1.Value).ToString();
+            label4.Text="S="+ AreaCalculation((double)numericUpDown1.Value).ToString();
         }
         
         private Point[] CalculateVertices(double radius, int startingAngle, Point center)
