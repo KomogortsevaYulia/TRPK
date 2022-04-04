@@ -54,7 +54,7 @@ namespace WindowsFormsApp
                 SolidBrush brush = new SolidBrush(Color.White);
                 g.FillPolygon(brush, verticies);
 
-                g.DrawEllipse(Pens.Blue, center.X, center.Y-50, 3, 3);
+                //g.DrawEllipse(Pens.Blue, center.X, center.Y-50, 3, 3);
             }
 
             picCanvas.Image = polygon;
