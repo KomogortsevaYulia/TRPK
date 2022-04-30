@@ -1120,6 +1120,936 @@
 					"type": ""
 				}
 			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGAZPnKcuYwRT8=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration2",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGAZPnKcuYxlME=",
+					"_parent": {
+						"$ref": "AAAAAAGAZPnKcuYwRT8="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGAZPnKcuYyPxs=",
+							"_parent": {
+								"$ref": "AAAAAAGAZPnKcuYxlME="
+							},
+							"name": "Посмотреть один предмет мебели",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGAZPnKcuYzawI=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGAZPnKcuY0qQY=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPnKcuYzawI="
+											},
+											"font": "Arial;13;0",
+											"left": 32.72998046875,
+											"top": 5,
+											"width": 207.92724609375,
+											"height": 13,
+											"text": "Посмотреть один предмет мебели"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGAZPnKcuY11aE=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPnKcuYzawI="
+											},
+											"font": "Arial;13;1",
+											"left": 13,
+											"top": 5,
+											"width": 14.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 8,
+									"width": 1033,
+									"height": 257,
+									"nameLabel": {
+										"$ref": "AAAAAAGAZPnKcuY0qQY="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGAZPnKcuY11aE="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGAZPrix+ZDw2M=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGAZPrix+ZEE9w=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPrix+ZDw2M="
+											},
+											"model": {
+												"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPrix+ZF3gA=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPrix+ZEE9w="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 244,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPrix+ZGu/o=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPrix+ZEE9w="
+													},
+													"font": "Arial;13;1",
+													"left": 405,
+													"top": 47,
+													"width": 64.71044921875,
+													"height": 13,
+													"text": "Система"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPrix+ZH1pw=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPrix+ZEE9w="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 244,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPrix+ZIoDI=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPrix+ZEE9w="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 244,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 400,
+											"top": 40,
+											"width": 74.71044921875,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGAZPrix+ZF3gA="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGAZPrix+ZGu/o="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGAZPrix+ZH1pw="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGAZPrix+ZIoDI="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGAZPrix+ZJylI=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPrix+ZDw2M="
+											},
+											"model": {
+												"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+											},
+											"font": "Arial;13;0",
+											"left": 437,
+											"top": 80,
+											"width": 1,
+											"height": 169
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 400,
+									"top": 40,
+									"width": 74.71044921875,
+									"height": 209,
+									"nameCompartment": {
+										"$ref": "AAAAAAGAZPrix+ZEE9w="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGAZPrix+ZJylI="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGAZPsCSeZeOcM=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAUQKIza4+3BU="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGAZPsCSuZfOI8=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPsCSeZeOcM="
+											},
+											"model": {
+												"$ref": "AAAAAAGAUQKIza4+3BU="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsCSuZgZ7U=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsCSuZfOI8="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -6,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsCSuZhyKU=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsCSuZfOI8="
+													},
+													"font": "Arial;13;1",
+													"left": 53,
+													"top": 47,
+													"width": 102.18701171875,
+													"height": 13,
+													"text": "Пользователь"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsCSuZihKY=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsCSuZfOI8="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -6,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsCSuZj6Kc=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsCSuZfOI8="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -6,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 48,
+											"top": 40,
+											"width": 112.18701171875,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGAZPsCSuZgZ7U="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGAZPsCSuZhyKU="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGAZPsCSuZihKY="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGAZPsCSuZj6Kc="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGAZPsCSuZk0Ao=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPsCSeZeOcM="
+											},
+											"model": {
+												"$ref": "AAAAAAGAUQKIza4+3BU="
+											},
+											"font": "Arial;13;0",
+											"left": 104,
+											"top": 80,
+											"width": 1,
+											"height": 169
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 40,
+									"width": 112.18701171875,
+									"height": 209,
+									"nameCompartment": {
+										"$ref": "AAAAAAGAZPsCSuZfOI8="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGAZPsCSuZk0Ao="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGAZPsL8uZ5tWk=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAUP4hlK022YA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGAZPsL8uZ63WE=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPsL8uZ5tWk="
+											},
+											"model": {
+												"$ref": "AAAAAAGAUP4hlK022YA="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsL8uZ77XM=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsL8uZ63WE="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 696,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsL8uZ87iE=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsL8uZ63WE="
+													},
+													"font": "Arial;13;1",
+													"left": 853,
+													"top": 47,
+													"width": 91.23095703125,
+													"height": 13,
+													"text": "БД магазина"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsL8uZ9kL0=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsL8uZ63WE="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 696,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGAZPsL8uZ+qX0=",
+													"_parent": {
+														"$ref": "AAAAAAGAZPsL8uZ63WE="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 696,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 848,
+											"top": 40,
+											"width": 101.23095703125,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGAZPsL8uZ77XM="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGAZPsL8uZ87iE="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGAZPsL8uZ9kL0="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGAZPsL8uZ+qX0="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGAZPsL8uZ/Kl4=",
+											"_parent": {
+												"$ref": "AAAAAAGAZPsL8uZ5tWk="
+											},
+											"model": {
+												"$ref": "AAAAAAGAUP4hlK022YA="
+											},
+											"font": "Arial;13;0",
+											"left": 899,
+											"top": 80,
+											"width": 1,
+											"height": 161
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 848,
+									"top": 40,
+									"width": 101.23095703125,
+									"height": 201,
+									"nameCompartment": {
+										"$ref": "AAAAAAGAZPsL8uZ63WE="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGAZPsL8uZ/Kl4="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGAZP0Jbea/6sg=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAZP0Jbea+ssA="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP0JbebAUuU=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP0Jbea+ssA="
+											},
+											"font": "Arial;13;0",
+											"left": 172,
+											"top": 104,
+											"width": 191.62939453125,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"edgePosition": 1,
+											"text": "1 : Выбранный предмет мебели"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP0JbebBze0=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP0Jbea+ssA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 267,
+											"top": 89,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP0JbebCWiQ=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP0Jbea+ssA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 267,
+											"top": 124,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGAZP0JbebD/2o=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP0Jbea/6sg="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP0Jbea+ssA="
+											},
+											"font": "Arial;13;0",
+											"left": 430,
+											"top": 120,
+											"width": 14,
+											"height": 81
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGAZPrix+ZJylI="
+									},
+									"tail": {
+										"$ref": "AAAAAAGAZPsCSuZk0Ao="
+									},
+									"points": "104:120;430:120",
+									"nameLabel": {
+										"$ref": "AAAAAAGAZP0JbebAUuU="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGAZP0JbebBze0="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGAZP0JbebCWiQ="
+									},
+									"activation": {
+										"$ref": "AAAAAAGAZP0JbebD/2o="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGAZP1WuubVgKA=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAZP1WuubUXK0="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP1WuubWUUA=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP1WuubUXK0="
+											},
+											"font": "Arial;13;0",
+											"left": 470,
+											"top": 120,
+											"width": 395.77001953125,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"edgePosition": 1,
+											"text": "2 : Запрос на всю информацию по выбранному предмету мебели"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP1WuubXkbY=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP1WuubUXK0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 667,
+											"top": 105,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP1WuubYnWI=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP1WuubUXK0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 667,
+											"top": 140,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGAZP1WuubZpeA=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP1WuubVgKA="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP1WuubUXK0="
+											},
+											"font": "Arial;13;0",
+											"left": 892,
+											"top": 136,
+											"width": 14,
+											"height": 41
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGAZPsL8uZ/Kl4="
+									},
+									"tail": {
+										"$ref": "AAAAAAGAZPrix+ZJylI="
+									},
+									"points": "443:136;892:136",
+									"nameLabel": {
+										"$ref": "AAAAAAGAZP1WuubWUUA="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGAZP1WuubXkbY="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGAZP1WuubYnWI="
+									},
+									"activation": {
+										"$ref": "AAAAAAGAZP1WuubZpeA="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGAZP3XrObuUsM=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAZP3XrObt5p4="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP3XrObvdM0=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP3XrObt5p4="
+											},
+											"font": "Arial;13;0",
+											"left": 521,
+											"top": 174,
+											"width": 290.5576171875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"edgePosition": 1,
+											"text": "3 : Информация о выбранном предмете мебели"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP3XrObwO9I=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP3XrObt5p4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 666,
+											"top": 189,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZP3XrObxcR8=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP3XrObt5p4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 667,
+											"top": 154,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGAZP3XrObyXd4=",
+											"_parent": {
+												"$ref": "AAAAAAGAZP3XrObuUsM="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZP3XrObt5p4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 430,
+											"top": 170,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGAZPrix+ZJylI="
+									},
+									"tail": {
+										"$ref": "AAAAAAGAZPsL8uZ/Kl4="
+									},
+									"points": "892:170;443:170",
+									"nameLabel": {
+										"$ref": "AAAAAAGAZP3XrObvdM0="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGAZP3XrObwO9I="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGAZP3XrObxcR8="
+									},
+									"activation": {
+										"$ref": "AAAAAAGAZP3XrObyXd4="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGAZQE3EucKCpc=",
+									"_parent": {
+										"$ref": "AAAAAAGAZPnKcuYyPxs="
+									},
+									"model": {
+										"$ref": "AAAAAAGAZQE3EucJtlo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZQE3EucLN9M=",
+											"_parent": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZQE3EucJtlo="
+											},
+											"font": "Arial;13;0",
+											"left": 124,
+											"top": 196,
+											"width": 290.5576171875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"edgePosition": 1,
+											"text": "4 : Информация о выбранном предмете мебели"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZQE3EucMvVs=",
+											"_parent": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZQE3EucJtlo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 269,
+											"top": 211,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGAZQE3EucNrlM=",
+											"_parent": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZQE3EucJtlo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 270,
+											"top": 176,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGAZQE3EucO2zA=",
+											"_parent": {
+												"$ref": "AAAAAAGAZQE3EucKCpc="
+											},
+											"model": {
+												"$ref": "AAAAAAGAZQE3EucJtlo="
+											},
+											"font": "Arial;13;0",
+											"left": 97,
+											"top": 192,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGAZPsCSuZk0Ao="
+									},
+									"tail": {
+										"$ref": "AAAAAAGAZPrix+ZJylI="
+									},
+									"points": "430:192;110:192",
+									"nameLabel": {
+										"$ref": "AAAAAAGAZQE3EucLN9M="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGAZQE3EucMvVs="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGAZQE3EucNrlM="
+									},
+									"activation": {
+										"$ref": "AAAAAAGAZQE3EucO2zA="
+									}
+								}
+							]
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGAZP0Jbea+ssA=",
+							"_parent": {
+								"$ref": "AAAAAAGAZPnKcuYxlME="
+							},
+							"name": "Выбранный предмет мебели",
+							"source": {
+								"$ref": "AAAAAAGAUQKIza4+3BU="
+							},
+							"target": {
+								"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGAZP1WuubUXK0=",
+							"_parent": {
+								"$ref": "AAAAAAGAZPnKcuYxlME="
+							},
+							"name": "Запрос на всю информацию по выбранному предмету мебели",
+							"source": {
+								"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGAUP4hlK022YA="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGAZP3XrObt5p4=",
+							"_parent": {
+								"$ref": "AAAAAAGAZPnKcuYxlME="
+							},
+							"name": "Информация о выбранном предмете мебели",
+							"source": {
+								"$ref": "AAAAAAGAUP4hlK022YA="
+							},
+							"target": {
+								"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+							},
+							"messageSort": "reply"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGAZQE3EucJtlo=",
+							"_parent": {
+								"$ref": "AAAAAAGAZPnKcuYxlME="
+							},
+							"name": "Информация о выбранном предмете мебели",
+							"source": {
+								"$ref": "AAAAAAGAUP3Y1q0T3uQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGAUQKIza4+3BU="
+							}
+						}
+					]
+				}
+			]
 		}
 	]
 }
